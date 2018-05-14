@@ -8,6 +8,47 @@ h1 {
 	margin: 0 auto;
 }
 
+#socialMediaTab {
+    margin-top:30px;
+    border-top-color: #1DA1F2;
+    border-width:3px;
+    border-top-style: solid;
+    border-bottom-color: #1DA1F2;
+    border-bottom-style:solid;
+    padding-bottom:50px;
+    margin-bottom:30px;
+}
+
+#twitterTag {
+    padding-top:25px;
+    margin-bottom:0px;
+    text-align: center;
+    font-size:40px;
+    color: #1DA1F2;
+}
+
+
+#instagram {
+    color: #d6249f;
+}
+
+
+#twitter {
+    color: #1DA1F2
+}
+
+#facebook {
+    color: blue;
+}
+.sociaIcon {
+    padding:5px;
+}
+#SociaRow {
+    font-size:200px;
+    justify-content:center;
+    display:flex;
+    flex-direction:row;
+}
 #title {
     padding-bottom:300px;
     border-width:2px;
