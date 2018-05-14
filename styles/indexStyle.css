@@ -1,6 +1,11 @@
+body,html {
+	height: 100%;
+}
+
 h1 {
+	display: inline-block;
     color:violet;
-    text-align:center;
+	margin: 0 auto;
 }
 
 #socialMediaTab {
@@ -45,19 +50,46 @@ h1 {
     flex-direction:row;
 }
 #title {
-    margin:0;
     padding-bottom:300px;
     border-width:2px;
     border-color:blue;
     border-style: solid;
+    background-image: url('https://blog.ed.gov/files/2014/04/13556050275_1a21b594a8_b.jpg');
+    height: 75%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	font-size: 2em;
+	text-align: center;
 }
 
 #missionStatement {
-    font-size:18px;
+    font-size:1.3em;
     font-weight: 600;
     text-align: center;
+	background-color: blue;
+	height: 20%;
 }
 
 .header {
-    font-size:28px;
+    font-size: 1.3em;
+	text-align: center;
+	background-color: blue;
+	
+}
+
+p {
+	text-align: center;
+	width: 100%;
+}
+
+#footer > * {
+	display: inline-block;
+	margin-right: 5%;
+}
+
+#footer > h3 {
+	display: inline-block;
+	margin-left: 27.7%;
 }
