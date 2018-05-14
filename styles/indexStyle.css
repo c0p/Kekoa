@@ -80,9 +80,16 @@ h1 {
 }
 
 p {
-	
 	text-align: center;
-	width: 50%;
-	
+	width: 100%;
 }
 
+#footer > * {
+	display: inline-block;
+	margin-right: 5%;
+}
+
+#footer > h3 {
+	display: inline-block;
+	margin-left: 27.7%;
+}
