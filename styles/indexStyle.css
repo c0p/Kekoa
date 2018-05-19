@@ -57,7 +57,20 @@ h1 {
     background: red;
     border-style: solid;
 	font-size: 2em;
+    font-family: system-ui;
 }	
+
+#navBar {
+   border-width: 2px;
+}
+
+
+.navParts {
+    float: left;
+    width: 114px;
+    border-width: 1px;
+    border-style: solid
+}
 
 #missionStatement {
     font-size:1.3em;
