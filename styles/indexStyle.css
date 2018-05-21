@@ -9,8 +9,10 @@ body,html {
 h1 {
 	display: inline-block;
     color: white;
-    margin-top: 15%;
+	margin: 0 auto;
 }
+
+
 
 #socialMediaTab {
     margin-top:30px;
@@ -54,18 +56,24 @@ h1 {
     flex-direction:row;
 }
 #title {
-    padding-bottom:300px;
+    
     border-width:2px;
-    border-color:blue;
+    background: red;
     border-style: solid;
-    background-image: url('https://blog.ed.gov/files/2014/04/13556050275_1a21b594a8_b.jpg');
-    height: 75%; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 	font-size: 2em;
-	text-align: center;
+    font-family: system-ui;
+}	
+
+#navBar {
+   border-width: 2px;
+}
+
+
+.navParts {
+    float: left;
+    width: 114px;
+    border-width: 1px;
+    border-style: solid
 }
 
 #missionStatement {
