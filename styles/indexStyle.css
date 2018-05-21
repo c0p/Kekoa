@@ -1,3 +1,7 @@
+* {
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+}
+
 body,html {
 	height: 100%;
 }
@@ -69,11 +73,18 @@ h1 {
     font-weight: 600;
     text-align: center;
 	background-color: blue;
-	height: 20%;
+	height: 50%;
+    display: inline-block;
+    width: 50%;
+}
+
+.info {
+	font-size: 200%;
+	padding: 0% 1% 0% 1%;
 }
 
 .header {
-    font-size: 1.3em;
+    font-size: 1.5em;
 	text-align: center;
 	background-color: blue;
 	
