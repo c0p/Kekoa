@@ -1,47 +1,46 @@
-body,html {
-	height: 100%;
+body,
+html {
+    height: 100%;
 }
 
 h1 {
-	display: inline-block;
+    display: inline-block;
     color: white;
-	margin: 0 auto;
+    margin: 0 auto;
 }
 
 .stat {
     text-align: left;
-    margin-left:30px;
-    font-size:48px;
+    margin-left: 30px;
+    font-size: 48px;
 }
-
 
 #statHead {
     padding-bottom: 30px;
 }
+
 #socialMediaTab {
-    margin-top:30px;
+    margin-top: 30px;
     border-top-color: #1DA1F2;
-    border-width:3px;
+    border-width: 3px;
     border-top-style: solid;
     border-bottom-color: #1DA1F2;
-    border-bottom-style:solid;
-    padding-bottom:50px;
-    margin-bottom:30px;
+    border-bottom-style: solid;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 #twitterTag {
-    padding-top:25px;
-    margin-bottom:0px;
+    padding-top: 25px;
+    margin-bottom: 0px;
     text-align: center;
-    font-size:40px;
+    font-size: 40px;
     color: #1DA1F2;
 }
-
 
 #instagram {
     color: #d6249f;
 }
-
 
 #twitter {
     color: #1DA1F2
@@ -50,28 +49,29 @@ h1 {
 #facebook {
     color: blue;
 }
+
 .sociaIcon {
-    padding:5px;
+    padding: 5px;
 }
+
 #SociaRow {
-    font-size:200px;
-    justify-content:center;
-    display:flex;
-    flex-direction:row;
+    font-size: 200px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
 }
+
 #title {
-    
-    border-width:2px;
+    border-width: 2px;
     background: red;
     border-style: solid;
-	font-size: 2em;
+    font-size: 2em;
     font-family: system-ui;
-}	
-
-#navBar {
-   border-width: 2px;
 }
 
+#navBar {
+    border-width: 2px;
+}
 
 .navParts {
     float: left;
@@ -81,31 +81,30 @@ h1 {
 }
 
 #missionStatement {
-    font-size:1.3em;
+    font-size: 1.3em;
     font-weight: 600;
     text-align: center;
-	background-color: blue;
-	height: 20%;
+    background-color: blue;
+    height: 20%;
 }
 
 .header {
     font-size: 1.3em;
-	text-align: center;
-	background-color: blue;
-	
+    text-align: center;
+    background-color: blue;
 }
 
 p {
-	text-align: center;
-	width: 100%;
+    text-align: center;
+    width: 100%;
 }
 
-#footer > * {
-	display: inline-block;
-	margin-right: 5%;
+#footer>* {
+    display: inline-block;
+    margin-right: 5%;
 }
 
-#footer > h3 {
-	display: inline-block;
-	margin-left: 27.7%;
+#footer>h3 {
+    display: inline-block;
+    margin-left: 27.7%;
 }
