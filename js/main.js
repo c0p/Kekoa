@@ -5,6 +5,7 @@ console.log('test')
 
 var teenCount = 0;
 var percCount = 0;
+var peopleCount = 0;
 
 function statCount() {
     if (teenCount < 160000) {
@@ -21,9 +22,25 @@ function percentCount() {
     }
 }
 
+function addPeople() {
+    if (peopleCount < 140) {
+        peopleCount++;
+        var peopleElem = document.createElement('i');
+        peopleElem.id = "people"
+        peopleElem.className = "mdi mdi-human-male"
+        document.getElementById('peoples').appendChild(peopleElem)
+
+    }
+
+}
+
 setInterval(function () {
     statCount();
 }, 1);
+
+setInterval(function () {
+    addPeople();
+}, 100);
 
 setInterval(function () {
     percentCount();
