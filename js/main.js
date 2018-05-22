@@ -9,7 +9,7 @@ var peopleCount = 0;
 
 function statCount() {
     if (teenCount < 160000) {
-        teenCount += 250;
+        teenCount += 500;
         document.getElementById('num').innerHTML = teenCount;
     }
 }
@@ -36,11 +36,11 @@ function addPeople() {
 
 setInterval(function () {
     statCount();
-}, 1);
+}, 20);
 
 setInterval(function () {
     addPeople();
-}, 100);
+}, 50);
 
 setInterval(function () {
     percentCount();
