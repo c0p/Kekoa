@@ -25,7 +25,24 @@ h1 {
 	margin-top: 25%;
 }
 
+#butttonR {
+	height: 100%;
+}
 
+#navBar {
+   border-width: 2px;
+   width: 100%;
+   position: fixed;
+   top: 0%;
+}
+
+.navParts {
+    float: left;
+    width: 16.4%;
+    border-width: 1px solid #f2e3a6;
+	background: rgb(243, 229, 171);
+	color: white;
+}
 
 #socialMediaTab {
     margin-top:30px;
@@ -67,18 +84,6 @@ h1 {
     justify-content:center;
     display:flex;
     flex-direction:row;
-}
-
-#navBar {
-   border-width: 2px;
-}
-
-
-.navParts {
-    float: left;
-    width: 114px;
-    border-width: 1px;
-    border-style: solid
 }
 
 #missionStatement {
