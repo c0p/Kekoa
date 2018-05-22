@@ -1,11 +1,47 @@
-body,
-html {
+* {
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+}
+
+body,html {
+	height: 100%;
+}
+
+#title {
+    width: 100%;
     height: 100%;
+    font-size: 2em;
+    font-family: system-ui;
+    background-image: url("https://images.unsplash.com/photo-1508882857085-0dc80383150c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=66bf3c1b5548b70036be1c7fa07fb54b&w=1000&q=80"); 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
 }
 
 h1 {
     display: inline-block;
     color: white;
+	margin-top: 25%;
+}
+
+#butttonR {
+	height: 100%;
+}
+
+#navBar {
+   border-width: 2px;
+   width: 100%;
+   position: fixed;
+   top: 0%;
+}
+
+.navParts {
+    float: left;
+    width: 16.4%;
+    border-width: 1px solid #f2e3a6;
+	background: rgb(243, 229, 171);
+	color: white;
     margin: 0 auto;
 }
 
@@ -61,31 +97,17 @@ h1 {
     flex-direction: row;
 }
 
-#title {
-    border-width: 2px;
-    background: red;
-    border-style: solid;
-    font-size: 2em;
-    font-family: system-ui;
-}
-
-#navBar {
-    border-width: 2px;
-}
-
-.navParts {
-    float: left;
-    width: 114px;
-    border-width: 1px;
-    border-style: solid
-}
-
 #missionStatement {
     font-size: 1.3em;
     font-weight: 600;
     text-align: center;
     background-color: blue;
     height: 20%;
+}
+
+.info {
+	font-size: 200%;
+	padding: 0% 1% 0% 1%;
 }
 
 .header {
