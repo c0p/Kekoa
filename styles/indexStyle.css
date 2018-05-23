@@ -11,6 +11,11 @@ body {
 	overflow-x: hidden;	
 }
 
+#people {
+    font-size: 42px;
+    margin:0;
+}
+
 #title {
     width: 100%;
     height: 100%;
@@ -71,7 +76,7 @@ button:focus {
 .stat {
     text-align: left;
     margin-left: 30px;
-    font-size: 48px;
+    font-size: 55px;
 }
 
 #statHead {
@@ -137,6 +142,10 @@ button:focus {
     font-size: 1.3em;
     text-align: center;
     background-color: blue;
+}
+
+#peoples {
+	width: 50%;
 }
 
 p {

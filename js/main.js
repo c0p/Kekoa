@@ -7,11 +7,15 @@ var teenCount = 0;
 var percCount = 0;
 var imgNumber = 1;
 var backgroundImages = ['http://www.musictruth.com/wp-content/uploads/2016/11/sunset.jpg','https://hdwallsource.com/img/2014/10/ocean-sunset-35994-36819-hd-wallpapers.jpg',]
+var peopleCount = 0;
 
+function isOverflown(element) {
+    return element.scrollHeight > element.clientHeight || element.scrollWidth > element.clientWidth;
+}
 
 function statCount() {
     if (teenCount < 160000) {
-        teenCount += 250;
+        teenCount += 500;
         document.getElementById('num').innerHTML = teenCount;
     }
 }
@@ -24,9 +28,25 @@ function percentCount() {
     }
 }
 
+function addPeople() {
+    if (peopleCount < 140) {
+        peopleCount++;
+        var peopleElem = document.createElement('i');
+        peopleElem.id = "people"
+        peopleElem.className = "mdi mdi-human-male"
+        document.getElementById('peoples').appendChild(peopleElem)
+
+    }
+
+}
+
 setInterval(function () {
     statCount();
-}, 1);
+}, 20);
+
+setInterval(function () {
+    addPeople();
+}, 50);
 
 setInterval(function () {
     percentCount();
