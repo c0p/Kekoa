@@ -6,17 +6,22 @@ body,html {
 	height: 100%;
 }
 
+body {
+	width: 100%;
+	overflow-x: hidden;	
+}
+
 #title {
     width: 100%;
     height: 100%;
     font-size: 2em;
     font-family: system-ui;
-    background-image: url("https://images.unsplash.com/photo-1508882857085-0dc80383150c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=66bf3c1b5548b70036be1c7fa07fb54b&w=1000&q=80"); 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+	transition: background-image 1s;
 }
 
 h1 {
@@ -25,8 +30,26 @@ h1 {
 	margin-top: 25%;
 }
 
-#butttonR {
-	height: 100%;
+.imgChange {
+    height: 100%;
+    position: relative;
+    width: 5%;
+    background: none;
+    border: 0px solid white;
+    color: white;
+    font-size: 150%;
+}
+
+#buttonR {
+	float: right;
+}
+
+#buttonL {
+	float: left;
+}
+
+button:focus {
+	outline:0;
 }
 
 #navBar {
@@ -38,7 +61,7 @@ h1 {
 
 .navParts {
     float: left;
-    width: 16.4%;
+    width: 16.6%;
     border-width: 1px solid #f2e3a6;
 	background: rgb(243, 229, 171);
 	color: white;
