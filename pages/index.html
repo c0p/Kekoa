@@ -8,99 +8,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="../styles/indexStyle.css" />
     <link href="../styles/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" type="text/css" href="../styles/jquery.fullPage.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+    <script type="text/javascript" src="../js/jquery.fullPage.js"></script>
 </head>
 
 <body>
-    <div id="title">
-		<button class="imgChange" id="buttonL" onclick="imageIndex('left')"> < </button>
-		<h1>Ke Koa</h1>
-	    <button class="imgChange" id="buttonR" onclick="imageIndex('right')"> > </button>
-    </div>
+    <div id="fullpage">
+        <div class="section">
 
-    <div id="navBar">
-        <div class="navParts">
-            <p>Home</p>
+            <div id="title">
+                <h1>Ke Koa</h1>
+            </div>
+
+
+            <div id="imgSlideShow">
+
+            </div>
+
+        </div>
+        <div class="section">
+            <div class="slide" data-anchor="slide1">
+
+                <div id="missionStatement">
+                    <h2>our mission is to help bystanders speak up, take action, take courage when they witness bullying</h2>
+                </div>
+            </div>
+            <div class="slide" data-anchor="slide2">wakanda forever</div>
+        </div>
+        <div class="section">
+            <div class="header">
+                <h3>the problem</h3>
+            </div>
+            <p class="info">Nowadays, when people witness bullying, they take videos of the occurring event and post it on social media,
+                or they just ignore it. Some don’t have the courage to speak up because they’re afraid.Nowadays, when people
+                witness bullying, they take videos of the occurring event and post it on social media, or they just ignore
+                it. Some don’t have the courage to speak up because they’re afraid.</p>
+        </div>
+        <div class="section">
+            <div class="header">
+                <h3 id="statHead">Statistics</h3>
+            </div>
+            <div id="peoples">
+            </div>
+            <p class="stat">
+                <i id='people' class='mdi mdi-human-male'></i>= 500 students
+                <br> Over
+                <span id="num"></span> teens skip school everday because of bullying</p>
+            <br>
+            <p class="stat">Over
+                <span id="num2">56</span>% personally witnessed some type of bullying</p>
+
+        </div>
+        <div class="section">
+            <div id="socialMediaTab">
+                <div class="header">
+                </div>
+                <h3 id="twitterTag">#braveEnoughToSpeak</h3>
+                <div id="SociaRow">
+                    <i id='instagram' class='mdi mdi-instagram sociaIcon'></i>
+                    <a href="https://twitter.com/WHSKeKoa">
+                        <i id='twitter' class='mdi mdi-twitter-box sociaIcon'></i>
+                    </a>
+                    <a href="https://www.facebook.com/AntBuCam/" id='facebook' class='mdi mdi-facebook-box sociaIcon'>
+                        </i>
+                    </a>
+                </div>
+            </div>
+
         </div>
 
-        <div class="navParts">
-            <p>News</p>
+        <div class="section">
+            <div id="footer">
+                <a href="../pages/aboutUs.html">
+                    <h3>About Us</h3>
+                </a>
+                <h4>Club Infomation</h4>
+                <h4>Selling Infomation</h4>
+                <h4>Social Events</h4>
+            </div>
+
+            <h1>Whenever one person STANDS UP and says “ Wait a minute, THIS IS WRONG, “ it helps other people do the same. </h1>
         </div>
 
-        <div class="navParts">
-            <p>Events</p>
-        </div>
-
-        <div class="navParts">
-            <p>Committes</p>
-        </div>
-
-        <div class="navParts">
-            <p>Help</p>
-        </div>
-
-        <div class="navParts">
-            <p>About</p>
-        </div>
-    </div>
-
-    </br>
-    </br>
-
-    <div id="imgSlideShow">
-
-    </div>
-
-    <div id="missionStatement">
-        <h2>our mission is to help bystanders speak up, take action, take courage when they witness bullying</h2>
-    </div>
-
-    <div class="header">
-        <h3>the problem</h3>
-    </div>
-    <p class="info">Nowadays, when people witness bullying, they take videos of the occurring event and post it on social media, or they
-        just ignore it. Some don’t have the courage to speak up because they’re afraid.Nowadays, when people witness bullying,
-        they take videos of the occurring event and post it on social media, or they just ignore it. Some don’t have the
-        courage to speak up because they’re afraid.</p>
-
-    <div class="header">
-        <h3 id="statHead">Statistics</h3>
-    </div>
-    <div id="peoples">
-    </div>
-    <p class="stat">
-        <i id='people' class='mdi mdi-human-male'></i>= 500 students <br>
-        Over <span id="num"></span> teens skip school everday because of bullying</p>
-    <br>
-    <p class="stat">Over
-        <span id="num2">56</span>% personally witnessed some type of bullying</p>
-
-    <div id="socialMediaTab">
-        <div class="header">
-        </div>
-        <h3 id="twitterTag">#braveEnoughToSpeak</h3>
-        <div id="SociaRow">
-            <i id='instagram' class='mdi mdi-instagram sociaIcon'></i>
-            <!-- no instagram page. hmmm, can u guys help find the offical one? -->
-            <a href="https://twitter.com/WHSKeKoa">
-                <i id='twitter' class='mdi mdi-twitter-box sociaIcon'></i>
-            </a>
-            <a href="https://www.facebook.com/AntBuCam/" id='facebook' class='mdi mdi-facebook-box sociaIcon'>
-                </i>
-            </a>
-        </div>
-    </div>
-
-    <div id="footer">
-        <a href="../pages/aboutUs.html">
-            <h3>About Us</h3>
-        </a>
-        <h4>Club Infomation</h4>
-        <h4>Selling Infomation</h4>
-        <h4>Social Events</h4>
-    </div>
-
-    <h1>Whenever one person STANDS UP and says “ Wait a minute, THIS IS WRONG, “ it helps other people do the same. </h1>
-    <script src="../js/main.js"></script>
+        <script src="../js/main.js"></script>
 </body>
 
 </html>
